@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Eigen Data — Ideas. Data. Technology. Consulting, Education, and Web Development for data-driven solutions.">
+  <title>Eigen Data | Ideas. Data. Technology.</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.png" alt="Eigen Data Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
+        <span class="logo-text" style="display:none;">EIGEN</span>
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="event.html" class="nav-link">Events</a></li>
+        <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+        <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        <li class="nav-item nav-cta">
+          <a href="contact.html" class="btn btn-primary btn-sm">Get Started →</a>
+        </li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1920&q=80" alt="Data analytics dashboard" class="hero-img">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <h1 class="hero-title">Ideas. Data. Technology.</h1>
+        <p class="hero-subtitle">
+          We help individuals, researchers, businesses, and organizations turn ideas and data into meaningful solutions.
+        </p>
+        <div class="hero-buttons">
+          <a href="#services" class="btn btn-primary">Explore Services</a>
+          <a href="portfolio.html" class="btn btn-outline">View Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT WE DO -->
+    <section class="section services-preview" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">What We Do</span>
+          <h2 class="section-title">Three ways we create value</h2>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-number">01</div>
+            <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>Consulting</h3>
+            <p>Data, Statistics, Research & Analytics</p>
+            <a href="services.html#consulting" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+          </article>
+          <article class="service-card">
+            <div class="service-number">02</div>
+            <div class="service-icon"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Education</h3>
+            <p>Statistics, Data Science & Technology Learning</p>
+            <a href="services.html#education" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+          </article>
+          <article class="service-card">
+            <div class="service-number">03</div>
+            <div class="service-icon"><i class="fas fa-code"></i></div>
+            <h3>Web Development</h3>
+            <p>Modern Websites & Digital Solutions</p>
+            <a href="services.html#webdev" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOOLS -->
+    <section class="section tools-section" id="tools">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Capabilities</span>
+          <h2 class="section-title">Tools We Work With</h2>
+          <p class="section-desc">We use industry-standard tools that match the needs of research, analysis, and modern web development.</p>
+        </div>
+
+        <div class="tools-categories">
+          <div class="tools-group">
+            <h4>Statistical & Research</h4>
+            <div class="tools-list">
+              <span class="tool-badge">R</span>
+              <span class="tool-badge">RStudio</span>
+              <span class="tool-badge">SPSS</span>
+              <span class="tool-badge">SAS</span>
+              <span class="tool-badge">Stata</span>
+              <span class="tool-badge">Minitab</span>
+              <span class="tool-badge">Excel</span>
+            </div>
+          </div>
+          <div class="tools-group">
+            <h4>Data Science & Programming</h4>
+            <div class="tools-list">
+              <span class="tool-badge">Python</span>
+              <span class="tool-badge">Pandas</span>
+              <span class="tool-badge">NumPy</span>
+              <span class="tool-badge">Scikit-learn</span>
+              <span class="tool-badge">Jupyter</span>
+              <span class="tool-badge">Google Colab</span>
+              <span class="tool-badge">SQL</span>
+            </div>
+          </div>
+          <div class="tools-group">
+            <h4>SEM & Multivariate</h4>
+            <div class="tools-list">
+              <span class="tool-badge">SmartPLS</span>
+              <span class="tool-badge">AMOS</span>
+              <span class="tool-badge">SPSS</span>
+              <span class="tool-badge">R</span>
+            </div>
+          </div>
+          <div class="tools-group">
+            <h4>GIS & Spatial</h4>
+            <div class="tools-list">
+              <span class="tool-badge">QGIS</span>
+              <span class="tool-badge">R Spatial</span>
+              <span class="tool-badge">GeoPandas</span>
+            </div>
+          </div>
+          <div class="tools-group">
+            <h4>Web Development</h4>
+            <div class="tools-list">
+              <span class="tool-badge">HTML</span>
+              <span class="tool-badge">CSS</span>
+              <span class="tool-badge">JavaScript</span>
+              <!-- <span class="tool-badge">TypeScript</span>
+              <span class="tool-badge">React</span>
+              <span class="tool-badge">Next.js</span>
+              <span class="tool-badge">Tailwind CSS</span>
+              <span class="tool-badge">Node.js</span>
+              <span class="tool-badge">PostgreSQL</span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section pricing-preview" id="pricing">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-label">Transparent Pricing</span>
+          <h2 class="section-title">Starting From</h2>
+          <p class="section-desc">
+            Clear starting prices. Final quote depends on scope, complexity, and deadline.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+
+          <!-- EDUCATION -->
+          <article class="pricing-card">
+            <div class="pricing-header">
+              <h3>Education</h3>
+              <p class="pricing-tagline">Learn Data & Technology</p>
+            </div>
+
+            <div class="pricing-price">
+              <span class="price-label">Starting from</span>
+              <span class="price-value">Rp 75.000</span>
+            </div>
+
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Private Session (1-on-1)</li>
+              <li><i class="fas fa-check"></i> Training & Mentoring</li>
+              <li><i class="fas fa-check"></i> Workshop</li>
+              <li><i class="fas fa-check"></i> Group Training</li>
+            </ul>
+
+            <a href="pricing.html#education" class="btn btn-primary btn-block">
+              Learn More →
+            </a>
+          </article>
+
+
+          <!-- CONSULTING -->
+          <article class="pricing-card featured">
+            <div class="pricing-badge">Popular</div>
+
+            <div class="pricing-header">
+              <h3>Consulting</h3>
+              <p class="pricing-tagline">Data & Research</p>
+            </div>
+
+            <div class="pricing-price">
+              <span class="price-label">Starting from</span>
+              <span class="price-value">Rp 50.000</span>
+            </div>
+
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Data Cleaning & Preparation</li>
+              <li><i class="fas fa-check"></i> Statistical Analysis</li>
+              <li><i class="fas fa-check"></i> Research Consulting</li>
+              <li><i class="fas fa-check"></i> Data Visualization</li>
+            </ul>
+
+            <a href="pricing.html#consulting" class="btn btn-primary btn-block">
+              Get Started →
+            </a>
+          </article>
+
+
+          <!-- WEB DEVELOPMENT -->
+          <article class="pricing-card">
+            <div class="pricing-header">
+              <h3>Web Development</h3>
+              <p class="pricing-tagline">Digital Solutions</p>
+            </div>
+
+            <div class="pricing-price">
+              <span class="price-label">Starting from</span>
+              <span class="price-value">Rp 500.000</span>
+            </div>
+
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Landing Page</li>
+              <li><i class="fas fa-check"></i> Company Profile</li>
+              <li><i class="fas fa-check"></i> Business Website</li>
+              <li><i class="fas fa-check"></i> Custom Website</li>
+            </ul>
+
+            <a href="pricing.html#webdev" class="btn btn-primary btn-block">
+              Start a Project →
+            </a>
+          </article>
+
+        </div>
+
+        <p class="pricing-note">
+          Complex projects are quoted based on scope, data complexity, and deadline.
+        </p>
+
+        <div class="text-center">
+          <a href="pricing.html" class="btn btn-outline">
+            View Full Pricing
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="section portfolio-preview" id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Selected Work</span>
+          <h2 class="section-title">Portfolio</h2>
+        </div>
+
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="consulting">Consulting</button>
+          <button class="filter-btn" data-filter="education">Education</button>
+          <button class="filter-btn" data-filter="webdev">Web Development</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card" data-category="consulting">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Statistical Analysis Project">
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-category">Consulting</span>
+              <h3>Statistical Analysis</h3>
+              <p>Analysis of factors influencing research outcomes using advanced statistical methods.</p>
+              <div class="portfolio-tools">
+                <span>R</span>
+                <span>SPSS</span>
+                <span>Python</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="education">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80" alt="Eigen Data Educate">
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-category">Education</span>
+              <h3>Eigen Data Educate</h3>
+              <p>Educational content and learning materials for statistics and data analysis.</p>
+              <div class="portfolio-tools">
+                <span>Canva</span>
+                <span>Instagram</span>
+                <span>Web</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="webdev">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Company Profile Website">
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-category">Web Development</span>
+              <h3>Company Profile Website</h3>
+              <p>Responsive company website with modern design and clear information architecture.</p>
+              <div class="portfolio-tools">
+                <span>Next.js</span>
+                <span>Tailwind CSS</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center mt-2">
+          <a href="portfolio.html" class="btn btn-outline">View All Work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY EIGEN -->
+    <section class="section why-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Why Eigen</span>
+          <h2 class="section-title">What makes us different</h2>
+        </div>
+        <div class="why-grid">
+          <div class="why-card">
+            <div class="why-icon"><i class="fas fa-database"></i></div>
+            <h3>Data-driven</h3>
+            <p>Every recommendation and solution is grounded in data and rigorous analysis.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon"><i class="fas fa-flask"></i></div>
+            <h3>Research-based</h3>
+            <p>We apply solid research methodology so your results are credible and usable.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>Technology</h3>
+            <p>Modern tools and clean web solutions that scale with your needs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq-section" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">FAQ</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              Apakah Eigen menerima data dari SPSS / Excel?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. We work with various data formats including Excel, CSV, SPSS, and other commonly used formats.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Apakah bisa membantu menentukan metode analisis?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Method selection can be discussed based on your research objective, data structure, and analytical requirements.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Apakah Eigen menerima jasa pembuatan website?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Eigen provides landing page, company profile, business website, and custom web development services.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Apakah bisa konsultasi terlebih dahulu?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Contact our team to discuss your needs before starting a project. We are happy to clarify scope and approach first.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Bagaimana cara memulai proyek?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Kirim pesan via WhatsApp atau form kontak. Ceritakan singkat kebutuhan Anda, lalu kami akan balas dengan langkah selanjutnya dan estimasi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <h2>Have a project in mind?</h2>
+          <p>Let's build something meaningful together.</p>
+          <a href="contact.html" class="btn btn-primary btn-lg">Contact Eigen →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="assets/images/logo.png" alt="Eigen Data" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
+            <span class="logo-text" style="display:none;">EIGEN</span>
+          </a>
+          <p class="footer-tagline">Ideas. Data. Technology.</p>
+          <p class="footer-desc">We help turn ideas and data into meaningful solutions through consulting, education, and technology.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#consulting">Consulting</a></li>
+            <li><a href="services.html#education">Education</a></li>
+            <li><a href="services.html#webdev">Web Development</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="event.html">Events</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="https://wa.me/6285213565567" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+            <li><a href="mailto:eigendata91@gmail.com"><i class="fas fa-envelope"></i> eigendata91@gmail.com</a></li>
+            <li><a href="#" target="_blank" rel="noopener"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Eigen Data. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

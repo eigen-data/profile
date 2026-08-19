@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Eigen Data Portfolio — Selected case studies in consulting, education, and web development.">
+  <title>Portfolio | Eigen Data</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.png" alt="Eigen Data Logo" class="logo-img">
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="event.html" class="nav-link">Events</a></li>
+        <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+        <li class="nav-item"><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        <li class="nav-item nav-cta">
+          <a href="contact.html" class="btn btn-primary btn-sm">Get Started →</a>
+        </li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="page-hero-label">Portfolio</span>
+        <h1 class="page-hero-title">Selected Work</h1>
+        <p class="page-hero-desc">
+          Real projects across consulting, education, and web development. Filter by category to see relevant work.
+        </p>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO FILTER + GRID -->
+    <section class="section portfolio-page">
+      <div class="container">
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="consulting">Consulting</button>
+          <button class="filter-btn" data-filter="education">Education</button>
+          <button class="filter-btn" data-filter="webdev">Web Development</button>
+        </div>
+
+        <div class="portfolio-grid portfolio-page-grid">
+
+          <!-- Project 1 -->
+          <article class="portfolio-card" data-category="consulting">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=700&q=80" alt="Statistical Analysis">
+              <div class="portfolio-overlay">
+                <a href="#project-1" class="btn btn-sm btn-primary">View Detail</a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-category">Consulting</span>
+              <h3>Statistical Analysis — Research Factors</h3>
+              <p>Analysis of factors influencing research outcomes using multiple regression and diagnostics.</p>
+              <div class="portfolio-meta">
+                <span><i class="fas fa-calendar"></i> 2025</span>
+                <span><i class="fas fa-tools"></i> R · SPSS · Python</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="portfolio-card" data-category="education">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=700&q=80" alt="Eigen Data Educate">
+              <div class="portfolio-overlay">
+                <a href="#project-2" class="btn btn-sm btn-primary">View Detail</a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-category">Education</span>
+              <h3>Eigen Data Educate</h3>
+              <p>Educational content and learning materials for statistics and data analysis.</p>
+              <div class="portfolio-meta">
+                <span><i class="fas fa-calendar"></i> 2025–2026</span>
+                <span><i class="fas fa-tools"></i> Canva · Web · Instagram</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="portfolio-card" data-category="webdev">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=700&q=80" alt="Company Profile Website">
+              <div class="portfolio-overlay">
+                <a href="#project-3" class="btn btn-sm btn-primary">View Detail</a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-category">Web Development</span>
+              <h3>Company Profile Website</h3>
+              <p>Responsive company website with clear information architecture and modern design.</p>
+              <div class="portfolio-meta">
+                <span><i class="fas fa-calendar"></i> 2026</span>
+                <span><i class="fas fa-tools"></i> Next.js · Tailwind CSS</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="portfolio-card" data-category="consulting">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1504868584819-f8f8b7d6d5e3?auto=format&fit=crop&w=700&q=80" alt="SEM Analysis">
+              <div class="portfolio-overlay">
+                <a href="#project-4" class="btn btn-sm btn-primary">View Detail</a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-category">Consulting</span>
+              <h3>SEM Analysis — Behavioral Model</h3>
+              <p>Structural Equation Modeling for a behavioral research model using SmartPLS and R.</p>
+              <div class="portfolio-meta">
+                <span><i class="fas fa-calendar"></i> 2025</span>
+                <span><i class="fas fa-tools"></i> SmartPLS · R · SPSS</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="portfolio-card" data-category="webdev">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1467232004584-a241bd8da53f?auto=format&fit=crop&w=700&q=80" alt="Landing Page">
+              <div class="portfolio-overlay">
+                <a href="#project-5" class="btn btn-sm btn-primary">View Detail</a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-category">Web Development</span>
+              <h3>Campaign Landing Page</h3>
+              <p>Focused landing page for a product launch with clear CTA and responsive layout.</p>
+              <div class="portfolio-meta">
+                <span><i class="fas fa-calendar"></i> 2026</span>
+                <span><i class="fas fa-tools"></i> HTML · CSS · JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="portfolio-card" data-category="education">
+            <div class="portfolio-image">
+              <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80" alt="Private Training">
+              <div class="portfolio-overlay">
+                <a href="#project-6" class="btn btn-sm btn-primary">View Detail</a>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-category">Education</span>
+              <h3>Private Training — R for Research</h3>
+              <p>One-on-one training series covering data preparation, analysis, and visualization in R.</p>
+              <div class="portfolio-meta">
+                <span><i class="fas fa-calendar"></i> 2025</span>
+                <span><i class="fas fa-tools"></i> R · RStudio · ggplot2</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT DETAILS (Case Studies) -->
+    <section class="section portfolio-details">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Case Studies</span>
+          <h2 class="section-title">Project Details</h2>
+        </div>
+
+        <!-- Detail 1 -->
+        <article class="case-study" id="project-1">
+          <div class="case-header">
+            <span class="case-category">Consulting</span>
+            <h3>Statistical Analysis — Research Factors</h3>
+          </div>
+          <div class="case-meta-grid">
+            <div class="case-meta-item">
+              <span class="meta-label">Client / Organization</span>
+              <span class="meta-value">Academic research (confidential)</span>
+            </div>
+            <div class="case-meta-item">
+              <span class="meta-label">Category</span>
+              <span class="meta-value">Consulting</span>
+            </div>
+            <div class="case-meta-item">
+              <span class="meta-label">Tools</span>
+              <span class="meta-value">R · SPSS · Python</span>
+            </div>
+            <div class="case-meta-item">
+              <span class="meta-label">Year</span>
+              <span class="meta-value">2025</span>
+            </div>
+          </div>
+          <div class="case-body">
+            <div class="case-block">
+              <h4>Challenge</h4>
+              <p>The client needed to identify which factors significantly influenced the research outcome and report results in a form suitable for academic publication.</p>
+            </div>
+            <div class="case-block">
+              <h4>Solution</h4>
+              <p>We cleaned the dataset, performed exploratory analysis, ran multiple regression with assumption checks, and prepared clear tables and interpretation.</p>
+            </div>
+            <div class="case-block">
+              <h4>Result</h4>
+              <p>A complete analysis report with diagnostics, key findings, and ready-to-use tables for the client’s paper.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Detail 2 -->
+        <article class="case-study" id="project-2">
+          <div class="case-header">
+            <span class="case-category">Education</span>
+            <h3>Eigen Data Educate</h3>
+          </div>
+          <div class="case-meta-grid">
+            <div class="case-meta-item">
+              <span class="meta-label">Client / Organization</span>
+              <span class="meta-value">Eigen Data (own initiative)</span>
+            </div>
+            <div class="case-meta-item">
+              <span class="meta-label">Category</span>
+              <span class="meta-value">Education</span>
+            </div>
+            <div class="case-meta-item">
+              <span class="meta-label">Tools</span>
+              <span class="meta-value">Canva · Instagram · Web</span>
+            </div>
+            <div class="case-meta-item">
+              <span class="meta-label">Year</span>
+              <span class="meta-value">2025–2026</span>
+            </div>
+          </div>
+          <div class="case-body">
+            <div class="case-block">
+              <h4>Challenge</h4>
+              <p>Many learners struggle with statistics and data tools because materials are too theoretical or not practical enough.</p>
+            </div>
+            <div class="case-block">
+              <h4>Solution</h4>
+              <p>We created structured educational content focused on application — short explanations, examples, and step-by-step guidance for common analysis tasks.</p>
+            </div>
+            <div class="case-block">
+              <h4>Result</h4>
+              <p>A growing set of learning materials used in private sessions and shared as educational content.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Detail 3 -->
+        <article class="case-study" id="project-3">
+          <div class="case-header">
+            <span class="case-category">Web Development</span>
+            <h3>Company Profile Website</h3>
+          </div>
+          <div class="case-meta-grid">
+            <div class="case-meta-item">
+              <span class="meta-label">Client / Organization</span>
+              <span class="meta-value">Confidential client</span>
+            </div>
+            <div class="case-meta-item">
+              <span class="meta-label">Category</span>
+              <span class="meta-value">Web Development</span>
+            </div>
+            <div class="case-meta-item">
+              <span class="meta-label">Tools</span>
+              <span class="meta-value">Next.js · Tailwind CSS</span>
+            </div>
+            <div class="case-meta-item">
+              <span class="meta-label">Year</span>
+              <span class="meta-value">2026</span>
+            </div>
+          </div>
+          <div class="case-body">
+            <div class="case-block">
+              <h4>Challenge</h4>
+              <p>The organization needed a professional online presence that clearly explained who they are, what they offer, and how to contact them — with a modern, trustworthy look.</p>
+            </div>
+            <div class="case-block">
+              <h4>Solution</h4>
+              <p>We designed and built a responsive multi-page company profile with clear sections, consistent branding, and a simple contact flow.</p>
+            </div>
+            <div class="case-block">
+              <h4>Result</h4>
+              <p>A live, fast, and mobile-friendly website that presents the organization clearly to visitors and potential partners.</p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <h2>Have a similar project?</h2>
+          <p>Tell us what you need. We’ll discuss scope and give you a clear next step.</p>
+          <a href="contact.html" class="btn btn-primary btn-lg">Start a Project →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="assets/images/logo.png" alt="Eigen Data Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
+            <span class="logo-text" style="display:none;">EIGEN</span>
+          </a>
+          <p class="footer-tagline">Ideas. Data. Technology.</p>
+          <p class="footer-desc">We help turn ideas and data into meaningful solutions through consulting, education, and technology.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#consulting">Consulting</a></li>
+            <li><a href="services.html#education">Education</a></li>
+            <li><a href="services.html#webdev">Web Development</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="event.html">Events</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="https://wa.me/6285213565567" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+            <li><a href="mailto:eigendata91@gmail.com"><i class="fas fa-envelope"></i> eigendata91@gmail.com</a></li>
+            <li><a href="#" target="_blank" rel="noopener"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Eigen Data. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
